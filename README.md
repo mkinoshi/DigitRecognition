@@ -25,10 +25,17 @@ Run proj_main.m
 ### Break down into end to end tests
 
 First, this code loads and displays a sample of images. 
+![alt text](https://user-images.githubusercontent.com/10353744/34329505-35527a64-e8d1-11e7-8601-e3f841eca755.png)
 
 Second, this code initializes the weights randomly, and start training the dataset. This neural network using a sigmoid function as a activation function. Hidden layer size is one of tha parameters that we have to adjust, and you can change its size by changing the value of hidden_layer_size parameter. Since the goal of this neural network is to recoginize the hand written digit, the output of this neural network is from 0 to 9. This program also visualizes the result of training after a certain number of iterations. Below, there are two images; one is after 10 iterations and the other is after 100 iterations. As you can see, the neural network learns features from images as it iterates more. It takes aroudn 10 mintues to finish iterating 100 times.  
 
-Third, it runs on the test dataset using the trained neural network. It will create a csv file and save it as 
+After the 10 iterations:
+![alt text](https://user-images.githubusercontent.com/10353744/34329507-552fe0f6-e8d1-11e7-8fb7-05a24d7f6368.png)
+
+After the 100 iterations:
+![alt text](https://user-images.githubusercontent.com/10353744/34329509-5f81b1b0-e8d1-11e7-9afa-ca8333354b84.png
+
+Third, it runs on the test dataset using the trained neural network. It will create a csv file and save it as test_result.csv. In this code, I did not assess 
 
 On this project, I implemented all of the functions including sigmoid funcions and sigmoid gradient functions for the purpose of learning the mechanism of neural network. Regardless of the intimidating name, a neural network system is pretty simple. To 
 
