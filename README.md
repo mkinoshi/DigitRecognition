@@ -33,7 +33,7 @@ After the 10 iterations:
 ![alt text](https://user-images.githubusercontent.com/10353744/34329507-552fe0f6-e8d1-11e7-8fb7-05a24d7f6368.png)
 
 After the 100 iterations:
-![alt text](https://user-images.githubusercontent.com/10353744/34329509-5f81b1b0-e8d1-11e7-9afa-ca8333354b84.png
+![alt text](https://user-images.githubusercontent.com/10353744/34329509-5f81b1b0-e8d1-11e7-9afa-ca8333354b84.png)
 
 Third, it runs on the test dataset using the trained neural network. It will create a csv file and save it as test_result.csv. In this code, I did not assess 
 
