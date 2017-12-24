@@ -1,6 +1,6 @@
 # Digit regonition system using neural network 
 
-This is my first code of neuran network in Matlab. I used the data from Kaggle, which is pretty popular and easy to use for a biginner. I built a simple neural network to detect a digit from images. 
+This is my first code of neuran network in Matlab. I used the data from Kaggle, which is pretty popular and easy to use for a biginner. I built a simple neural network to detect a digit from images. This code does not include the code of separting the trainin dataset and the test dataset. The training dataset includes data points, and the test dataset includes data points. This code is intented to show how a simple neural network works.  
 
 ## Getting Started
 
@@ -12,33 +12,19 @@ What things you need to install the software and how to install them
 
 ```
 Install Matlab (obviously) 
+Obtain datasets from the following link: (https://www.kaggle.com/c/digit-recognizer/data) 
 ```
 
-### Installing
-
-A step by step series of examples that tell you have to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
-
-Explain how to run the automated tests for this system
+This matlab code contains one main function and multiple function files.
+```
+Run proj_main.m
+```
 
 ### Break down into end to end tests
 
-Explain what these tests test and why
+First, this code loads and displays 
 
 ```
 Give an example
